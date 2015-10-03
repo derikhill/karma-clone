@@ -1,0 +1,52 @@
+.nav-bar {
+	position: fixed;
+	width: 100%;	
+}
+
+.nav-bar > .nav-content {
+	width: 970px;
+	height: 70px;
+	margin: 0 auto;
+}
+
+.logo {
+	height: 70px;
+	margin-left: 1rem;
+}
+
+.links {
+	float: right;
+	display: inline;
+}
+
+.links li {
+	display: inline;
+	margin-left: 1.2em;
+	font-size: 1em;
+	color: #b2afc2;
+	font-weight: 300;
+	letter-spacing: 0.4px;
+}
+
+.links li:active {
+	color: #fff;
+	color: #4c5058;
+	font-weight: 700;
+}
+
+.links li:hover {
+	cursor: pointer;
+	color: #333333;
+}
+
+.intro-section {
+	height: 39em;
+}
+
+.info-section {
+	height: 39em;
+}
+
+.footer {
+	height: 25em;
+}
