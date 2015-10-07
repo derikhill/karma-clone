@@ -113,6 +113,7 @@ html {
 
 .footer {
 	height: 20em;
+	text-align: center;
 }
 
 hr {
@@ -120,17 +121,33 @@ hr {
 	width: 970px;
 }
 
-.footer .content h5 {
+.footer .content {
 	text-align: center;
-	padding-top: 2em;
 	font-size: 1.15em;
 }
 
 .social {
-	display: inline;
 	text-align: center;
+	margin-left: -5rem;
 }
 
-p {
+.social li {
+	display: inline-block;
+	text-align: center;
+	margin: 0 auto;
+}
+
+.content .copy {
+	text-align: center;
+	color: #bdc5d1;
+}
+
+.social .fa {
+	border-radius: 2rem;
+	border: #d4dde8 1px solid;
+	width: 2.5em;
+	height: 2.5em;
+	margin: 0.6rem;
+	padding: 0.7em 0;
 	text-align: center;
 }
